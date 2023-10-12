@@ -43,16 +43,16 @@ login()
     fclose();
 }
 
-main()
+int main()
 {
     int cho ;
     printf("press '1' to register \n press '2' to login\n\n");
-    scanf("%d",%cho);
+    scanf("%s",&cho);
     if(cho==1){
         system("cls");
         register();
-    }
-    else if{
+    };
+    else{
         system("cls");
         login();
     }
